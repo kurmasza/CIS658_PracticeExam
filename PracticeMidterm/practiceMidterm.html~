@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CS 371 Practice Midterm</title>
+    <style type="text/css">
+        td {
+            vertical-align: top;
+
+        }
+
+        #js {
+            vertical-align: text-top;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>CIS 371 Practice Midterm</h1>
+
+<h2>JavaScript</h2>
+
+<em>JavaScript is not on the midterm for Summer 2016.  Just PHP.</em>
+
+<div id="js">
+    <table>
+        <tr>
+            <td>
+                <ul align="top">
+                    <li>Write a JavaScript function <code>styleInvoice</code> that will add the total and subtotal to <a
+                            href="robotInvoice.html"><code>robotInvoice.html</code></a>.
+                    </li>
+                    <li>Add CSS to format the invoice neatly.</li>
+                    <li>Modify the width of the image to reflect the total. Make the width larger for smaller totals,
+                        and smaller for larger totals.
+                        (Don't worry about the details, just make sure you can use Javascript to modify the
+                        <code>width</code> attribute of the <code>img</code> tag.)
+                    </li>
+                </ul>
+                For more practice: Add an up arrow and a down arrow. Then put a handler on each arrow that will
+                increase/descrease the size of the image.
+            </td>
+            <td>
+                <img src="invoice_sample.png" width="400px">
+            </td>
+        </tr>
+    </table>
+</div>
+
+<h2>PHP</h2>
+
+<div id="php">
+
+    <table>
+        <tr>
+            <td>
+                <ul align="top">
+                    <li>Write a php script that generates a multiplication table.</li>
+                    <li>Have it take the dimensions from the query string (e.g., "?width=7&height=10").</li>
+                    <li>Format it nicely (e.g., as shown to the right).</li>
+		    <li>Add a form that users can use as a second method of specifying the desired dimensions.</li>
+                </ul>
+            </td>
+            <td>
+                <img src="mult_sample.png" width="400px">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
